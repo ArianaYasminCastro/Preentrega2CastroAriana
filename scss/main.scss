@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.imgarticle {
+    width: 300px;
+}
+
+
+/* header */
+
+.header {
+    box-shadow: 0 5px 5px;
+    display:flex;
+    justify-content: center;
+}
+
+.h1 {
+    color: rgb(3, 3, 3);
+    background-color: rgb(255, 255, 255);
+    font-family: 'Dancing Script', cursive;
+    text-decoration: none;
+    overflow: hidden;
+    width: 180px;
+    display: inline;
+}
+
+.menu {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-family: 'Playfair', serif;
+    display: inline-flex;
+
+}
+
+.ul li {
+    list-style-type: none;
+    overflow: hidden;
+    margin: 5px;
+    background-color: darkgray;
+    border: outset;
+    display: inline-flex
+}
+
+
+
+/* Main */
+
+.imagenportada {
+    background-size: auto;
+}
+
+
+iframe {
+    width: 350px;
+  
+}
+
+.form {
+    background-color: rgb(255, 174, 244);
+}
+
+
+
+a {
+    color: rgb(6, 6, 6);
+    text-decoration: none;
+}
+
+.logo1 {
+    color: rgb(0, 0, 0);
+    display: inline;
+}
+
+
+.art1 {
+    width: 300px;
+    padding: 10px;
+}
+
+
+
+.title {
+
+    background-color: dimgrey;
+    width: 100%;
+    height: 80px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.volverArriba {
+   display: flex;
+background-color: chartreuse;
+text-transform: capitalize;
+font-family: monospace;
+justify-content: flex-end;
+text-decoration: overline;
+
+}
+
+p {
+   background-color: rgb(255, 174, 244) ;
+    margin: 30px ;
+    text-transform: uppercase;
+    padding: 5px;
+    text-align: center;
+   }
+
+   .mainUsuario{
+       display: flex;
+       flex-direction: column;
+   }
+
+/* Footer */
+
+.footer {
+
+    color: aliceblue;
+    background-color: black;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+a.redes {
+    color: aliceblue;
+    margin: 20px;
+
+}
+
+article.articulos {
+    display: flex;
+    justify-content: space-around;
+}
+
