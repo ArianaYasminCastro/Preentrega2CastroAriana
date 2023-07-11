@@ -1,5 +1,58 @@
 @import url("https://fonts.googleapis.com/css2?family=Playfair:ital,wght@1,300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+/* Footer */
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ysabeau+SC:wght@300&display=swap");
+footer {
+  display: flex; }
+
+.footer {
+  color: aliceblue;
+  background-color: black;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
+
+a.redes {
+  color: aliceblue;
+  margin: 20px; }
+
+article.articulos {
+  display: flex;
+  justify-content: space-around; }
+
+header {
+  display: flex;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row-reverse;
+  justify-content: space-around; }
+  header .header {
+    box-shadow: 0 5px 5px;
+    display: flex;
+    justify-content: center; }
+  header .h1 {
+    color: #030303;
+    background-color: white;
+    font-family: 'Dancing Script', cursive;
+    text-decoration: none;
+    overflow: hidden;
+    width: 180px;
+    display: inline-flex; }
+  header .menu {
+    background-color: white;
+    color: black;
+    font-family: 'Ysabeau SC', sans-serif;
+    display: inline-flex; }
+  header ul {
+    display: flex; }
+  header .ul li {
+    list-style-type: none;
+    overflow: hidden;
+    margin: 5px;
+    display: inline-flex; }
+
 * {
   margin: 0;
   padding: 0; }
@@ -7,8 +60,6 @@
 .imgarticle {
   width: 300px; }
 
-/* header */
-/* Main */
 .imagenportada {
   background-size: auto; }
 
@@ -55,20 +106,3 @@ p {
 .mainUsuario {
   display: flex;
   flex-direction: column; }
-
-/* Footer */
-.footer {
-  color: aliceblue;
-  background-color: black;
-  height: 100px;
-  display: flex;
-  align-items: center;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
-
-a.redes {
-  color: aliceblue;
-  margin: 20px; }
-
-article.articulos {
-  display: flex;
-  justify-content: space-around; }

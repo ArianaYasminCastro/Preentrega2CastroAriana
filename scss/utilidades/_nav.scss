@@ -5,6 +5,11 @@
 
 
  header{
+    display: flex;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row-reverse;
+    justify-content: space-around;
     .header {
     box-shadow: 0 5px 5px;
     display:flex;
@@ -17,7 +22,7 @@
     text-decoration: none;
     overflow: hidden;
     width: 180px;
-    display: inline;
+    display: inline-flex;
 }
 .menu {
     background-color: rgb(255, 255, 255);
@@ -26,13 +31,14 @@
     display: inline-flex;
 
 }
-
+ul{
+    display: flex;
+}
 .ul li {
     list-style-type: none;
     overflow: hidden;
     margin: 5px;
-    background-color: darkgray;
-    border: outset;
+
     display: inline-flex
 }
 
