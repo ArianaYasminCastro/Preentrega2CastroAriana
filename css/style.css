@@ -8,34 +8,6 @@
   width: 300px; }
 
 /* header */
-.header {
-  box-shadow: 0 5px 5px;
-  display: flex;
-  justify-content: center; }
-
-.h1 {
-  color: #030303;
-  background-color: white;
-  font-family: 'Dancing Script', cursive;
-  text-decoration: none;
-  overflow: hidden;
-  width: 180px;
-  display: inline; }
-
-.menu {
-  background-color: white;
-  color: black;
-  font-family: 'Playfair', serif;
-  display: inline-flex; }
-
-.ul li {
-  list-style-type: none;
-  overflow: hidden;
-  margin: 5px;
-  background-color: darkgray;
-  border: outset;
-  display: inline-flex; }
-
 /* Main */
 .imagenportada {
   background-size: auto; }
