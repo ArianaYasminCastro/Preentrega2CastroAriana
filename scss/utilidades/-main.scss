@@ -3,9 +3,7 @@
     padding: 0;
 }
 
-.imgarticle {
-    width: 300px;
-}
+
 .imagenportada {
     background-size: auto;
 }
@@ -22,10 +20,6 @@ iframe {
 
 
 
-a {
-    color: rgb(6, 6, 6);
-    text-decoration: none;
-}
 
 .logo1 {
     color: rgb(0, 0, 0);
@@ -71,3 +65,17 @@ p {
        display: flex;
        flex-direction: column;
    }
+
+   .imgarticle {
+    width: 300px !important; 
+}
+
+a {
+    color: rgb(6, 6, 6);
+    text-decoration: none !important;
+}
+
+div .card{
+    display: flex;
+justify-content: center;
+}
