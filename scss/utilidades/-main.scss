@@ -4,14 +4,9 @@
 }
 
 
-.imagenportada {
-    background-size: auto;
-}
-
-
 iframe {
     width: 350px;
-  
+
 }
 
 .form {
@@ -26,6 +21,16 @@ iframe {
     display: inline;
 }
 
+a {
+    color: rgb(6, 6, 6);
+    text-decoration: none !important;
+}
+
+
+div .card {
+    display: flex;
+    justify-content: center;
+}
 
 .art1 {
     width: 300px;
@@ -44,38 +49,31 @@ iframe {
 }
 
 .volverArriba {
-   display: flex;
-background-color: chartreuse;
-text-transform: capitalize;
-font-family: monospace;
-justify-content: flex-end;
-text-decoration: overline;
+    display: flex;
+    background-color: chartreuse;
+    text-transform: capitalize;
+    font-family: monospace;
+    justify-content: flex-end;
+    text-decoration: overline;
 
 }
 
 p {
-   background-color: rgb(255, 174, 244) ;
-    margin: 30px ;
+    background-color: rgb(255, 174, 244);
+    margin: 30px;
     text-transform: uppercase;
     padding: 5px;
     text-align: center;
-   }
-
-   .mainUsuario{
-       display: flex;
-       flex-direction: column;
-   }
-
-   .imgarticle {
-    width: 300px !important; 
 }
 
-a {
-    color: rgb(6, 6, 6);
-    text-decoration: none !important;
-}
-
-div .card{
+.mainUsuario {
     display: flex;
-justify-content: center;
+    flex-direction: column;
 }
+
+
+
+.imgarticle {
+    width: 300px !important;
+}
+
