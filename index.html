@@ -9,6 +9,8 @@
 
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link rel="stylesheet" href="./css/style.css">
   <title>Marale Kids</title>
 
@@ -24,7 +26,7 @@
         </h1>
 
 
-        <div class="p-2 ">
+        <div class="p-2 animate__animated animate__rubberBand">
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
             data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
             aria-label="Toggle navigation">
@@ -49,10 +51,12 @@
                   <a class="d nav-link active" href="./pages/carrito.html">CARRITO</a>
                 </li>
                 <li class="nav-item">
-                  <a class="e nav-link active" href="./pages/ubicacion.html">UBICACION</a>
-                </li>
+                  <a class="e nav-link active" href="./pages/ubicacion.html"> UBICACION</a>
+                    
+               </li>
               </ul>
 
+                
           </div>
         </div>
       </div>
@@ -83,7 +87,7 @@
     </div>
     <!-- ARTICULOS MAS VENDIDOS -->
 
-    <h2 class="title">Articulos mas vendidos </h2>
+    <h2 class="title"data-aos="fade-left">Articulos mas vendidos </h2>
     <br>
     <!-- PRIMER ART DESTACADO -->
     <div class="imagenesArticulos row row-cols-1 row-cols-md-3 g-4">
@@ -138,18 +142,20 @@
     </div>
 
 
+<!-- Barra de Promociones -->
+    <p> Miercoles y jueves 30% de ahorro cuenta DNI</p>
 
-
-
-
-
-    <p class="promo"> Miercoles y jueves 30% de ahorro cuenta DNI</p>
+    <!-- Entretenimiento -->
+    
     <div class="iframe1">
+      <p>Para Entretenerse</p>
       <iframe width="560" height="315" src="https://www.youtube.com/embed/HBlB76uAVJo" title="YouTube video player"
         frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        allowfullscreen></iframe>
+        allowfullscreen>
+      </iframe>
     </div>
+
   </main>
 
 
@@ -162,9 +168,14 @@
     <br>
     <a class="redes" href="https://goo.gl/maps/mAgKnKct7nLQE9aT9">Ubicacion</a>
   </footer>
+ 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
-    crossorigin="anonymous"></script>
+    crossorigin="anonymous"></script> 
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 
 

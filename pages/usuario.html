@@ -56,32 +56,33 @@
     </nav>
   </header>
 
-  <main class="mainUsuario">
-
-    <div class="dropdown-menu">
-      <form class="px-4 py-3">
-        <div class="mb-3">
-          <label for="exampleDropdownFormEmail1" class="form-label">Email address</label>
-          <input type="email" class="form-control" id="exampleDropdownFormEmail1" placeholder="email@example.com">
-        </div>
-        <div class="mb-3">
-          <label for="exampleDropdownFormPassword1" class="form-label">Password</label>
-          <input type="password" class="form-control" id="exampleDropdownFormPassword1" placeholder="Password">
-        </div>
-        <div class="mb-3">
-          <div class="form-check">
-            <input type="checkbox" class="form-check-input" id="dropdownCheck">
-            <label class="form-check-label" for="dropdownCheck">
-              Remember me
-            </label>
+  <main class="mainUsuario d-flex justify-content-center">
+    <body class="main-bg">
+      <div class="login-container text-c animated flipInX">
+              <div>
+                  <h1 class="logo-badge text-whitesmoke"><span class="fa fa-user-circle"></span></h1>
+              </div>
+                  <h3 class="text-whitesmoke d-flex justify-content-center ">Ingresar a tu usuario</h3>
+                  <p class="text-whitesmoke ">Ingresar</p>
+              <div class="container-content">
+                  <form class="margin-t">
+                      <div class="form-group">
+                          <input type="text" class="form-control" placeholder="Username" required="">
+                      </div>
+                      <div class="form-group">
+                          <input type="password" class="form-control" placeholder="*****" required="">
+                      </div>
+                      <button type="submit" class="form-button button-l margin-b d-flex justify-content-center">Entrar</button>
+      
+                      <a class="text-darkyellow d-flex justify-content-center " href="#"><small>Olvidaste tu contraseña?</small></a>
+                      <p class="text-whitesmoke text-center"><small>No tenes tu usuario?</small></p>
+                      <a class="text-darkyellow d-flex justify-content-center" href="#"><small>Ingresa aqui</small></a>
+                  </form>
+                  <p class="margin-t text-whitesmoke"><small> Marale Kids &copy; 2018</small> </p>
+              </div>
           </div>
-        </div>
-        <button type="submit" class="btn btn-primary">Sign in</button>
-      </form>
-      <div class="dropdown-divider"></div>
-      <a class="dropdown-item" href="#">New around here? Sign up</a>
-      <a class="dropdown-item" href="#">Forgot password?</a>
-    </div>
+</body>
+    
 
     
   </main>

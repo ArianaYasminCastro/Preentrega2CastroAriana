@@ -3,55 +3,55 @@
  @import url('https://fonts.googleapis.com/css2?family=Ysabeau+SC:wght@300&display=swap');
 
 
+ header   {display: flex;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row-reverse;
+    justify-content: space-around;}
+    
 
- header {
-     display: flex;
-     display: flex;
-     flex-wrap: nowrap;
-     flex-direction: row-reverse;
-     justify-content: space-around;
-
-     .header {
-         box-shadow: 0 5px 5px;
-         display: flex;
-         justify-content: center;
-     }
-
-     .h1 {
-         color: rgb(3, 3, 3);
-        //  background-color: rgb(255, 255, 255);
-         font-family: 'Dancing Script', cursive;
-         text-decoration: none;
-         overflow: hidden;
-         width: 180px;
-         display: inline-flex;
-     }
-
-     .menu {
-        //  background-color: rgb(255, 255, 255);
-         color: rgb(0, 0, 0);
-         font-family: 'Ysabeau SC', sans-serif;
-         display: inline-flex;
-
-     }
-
-     ul {
-         display: flex;
-     }
-
-     .ul li {
-         list-style-type: none;
-         overflow: hidden;
-         margin: 5px;
-         text-decoration: none;
-         display: inline-flex
-     }
-
-
-
-     a {
-        color: rgb(6, 6, 6);
-        text-decoration: none !important;
+    .header {
+        box-shadow: 0 5px 5px;
+        display: flex;
+        justify-content: center;
     }
 
- }
+    .h1 {
+        color: rgb(3, 3, 3);
+       //  background-color: rgb(255, 255, 255);
+        font-family: 'Dancing Script', cursive;
+        text-decoration: none;
+        overflow: hidden;
+        width: 180px;
+        display: inline-flex;
+    }
+
+    .menu {
+       //  background-color: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
+        font-family: 'Ysabeau SC', sans-serif;
+        display: inline-flex;
+
+    }
+
+    ul {
+        display: flex;
+    }
+
+    .ul li {
+        list-style-type: none;
+        overflow: hidden;
+        margin: 5px;
+        text-decoration: none;
+        display: inline-flex
+    }
+
+
+
+    a {
+       color: rgb(6, 6, 6);
+       text-decoration: none !important;
+   }
+.logoDeUbi {
+    width: 20px !important;
+}
