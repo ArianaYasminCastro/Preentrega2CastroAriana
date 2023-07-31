@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+iframe {
+  width: 350px;
+}
+
+.form {
+  background-color: rgb(255, 174, 244);
+}
+
+.logo1 {
+  color: rgb(0, 0, 0);
+  display: inline;
+}
+
+a {
+  color: rgb(6, 6, 6);
+  text-decoration: none !important;
+}
+
+.art1 {
+  width: 300px;
+  padding: 10px;
+}
+
+body {
+  background-color: rgba(255, 82, 82, 0.6117647059);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 300px;
+  border: none;
+  height: 320px;
+  border-radius: 15px;
+  padding: 20px;
+  background-color: #D50000;
+}
+
+.percent {
+  font-size: 56px;
+  color: #fff;
+}
+
+.discount {
+  font-size: 27px;
+  color: #fff;
+}
+
+.line {
+  color: #fff;
+}
+
+.form-check-input:checked {
+  background-color: #F44336;
+  border-color: #F44336;
+}
+
+.form-check-input:focus {
+  border-color: #d50000;
+  outline: 0;
+  box-shadow: none;
+}
+
+.form-check {
+  display: block;
+  min-height: 1.5rem;
+  padding-left: 1.75em;
+  margin-bottom: -5px;
+}
+
+.title {
+  background-color: dimgrey;
+  width: 100%;
+  height: 80px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.volverArriba {
+  display: flex;
+  background-color: chartreuse;
+  text-transform: capitalize;
+  font-family: monospace;
+  justify-content: flex-end;
+  text-decoration: overline;
+}
+
+p {
+  background-color: rgb(255, 174, 244);
+  margin: 30px;
+  text-transform: uppercase;
+  padding: 5px;
+  text-align: center;
+}
+
+.mainUsuario {
+  display: flex;
+  flex-direction: column;
+}
+
+.imgarticle {
+  width: 250px !important;
+}
+
+iframe {
+  display: flex !important;
+  justify-content: center !important;
+}
+
+/*# sourceMappingURL=-main.css.map */
